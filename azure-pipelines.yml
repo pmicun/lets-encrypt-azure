@@ -9,7 +9,7 @@ trigger:
 variables:
   - group: 'Deployment Credentials'
   - name: ResourceGroupName
-    value: 'letsencrypt-func'
+    value: '5days-letsencrypt'
   - name: DOTNET_SKIP_FIRST_TIME_EXPERIENCE
     value: true
   
