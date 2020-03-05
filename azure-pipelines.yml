@@ -6,13 +6,6 @@ trigger:
   branches:
     include:
     - master
-schedules:
-- cron: "0 17 * * Fri"
-  always: true
-  displayName: Weekly build
-  branches:
-    include:
-    - master
 variables:
   - group: 'Deployment Credentials'
   - name: ResourceGroupName
